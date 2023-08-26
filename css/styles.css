@@ -71,13 +71,43 @@ img {
 
 .item-title {
   color: var(--dark-color);
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
 
+.item-text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 /* What are we doing */
 
-.benefits {
+.benefits-wrap-icon {
+  display: none;
+}
+
+.benefit-title {
+  padding-bottom: 8px;
+}
+
+.benefit-txt {
+  font-weight: 500;
+  margin-bottom: 72px;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .benefits-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
 }
