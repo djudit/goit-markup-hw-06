@@ -100,7 +100,7 @@ img {
   margin-bottom: 72px;
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1199.98px) {
   .benefits-list {
     display: flex;
     flex-wrap: wrap;
@@ -109,5 +109,27 @@ img {
 
   .benefits-item {
     flex-basis: calc((100% - 24px) / 2);
+  }
+}
+
+@media (min-width: 1200px) {
+  .benefits-list {
+    display: flex;
+    flex-wrap: no-wrap;
+    gap: 24px;
+  }
+
+  .benefits-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+
+  .benefit-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  .benefit-txt {
+    font-weight: 400;
   }
 }
