@@ -168,6 +168,7 @@
           <ul class="list team-list">
             <li class="team-item">
               <img
+                srcset="./images/mark.jpg 1x, ./images/mark@2x.jpg 2x"
                 src="./images/mark.jpg"
                 alt="Mark's picture"
                 width="264"
@@ -210,6 +211,7 @@
             </li>
             <li class="team-item">
               <img
+                srcset="./images/tom.jpg 1x, ./images/tom@2x.jpg 2x"
                 src="./images/tom.jpg"
                 alt="Tom's picture"
                 width="264"
@@ -252,6 +254,7 @@
             </li>
             <li class="team-item">
               <img
+                srcset="./images/camila.jpg 1x, ./images/camila@2x.jpg 2x"
                 src="./images/camila.jpg"
                 alt="Camila's picture"
                 width="264"
@@ -294,6 +297,7 @@
             </li>
             <li class="team-item">
               <img
+                srcset="./images/daniel.jpg 1x, ./images/daniel@2x.jpg 2x"
                 src="./images/daniel.jpg"
                 alt="Daniel's picture"
                 width="264"
@@ -456,21 +460,21 @@
     </footer>
 
     <!-- Modal window -->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-btn" type="button" data-modal-close>
           <svg class="modal-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
-        </button> -->
+        </button>
 
-    <!-- Form -->
-    <!-- <p class="item-text form-title">
+        <!-- Form -->
+        <p class="item-text form-title">
           Leave your contacts and we will call you back
         </p>
-        <form class="modal-form" name="order"> -->
-    <!-- Name -->
-    <!-- <div class="form-wrap">
+        <form class="modal-form" name="order">
+          <!-- Name -->
+          <div class="form-wrap">
             <label class="form-label" for="user-name">Name</label>
             <div class="form-box">
               <input
@@ -483,9 +487,9 @@
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
-          </div> -->
-    <!-- Phone -->
-    <!-- <div class="form-wrap">
+          </div>
+          <!-- Phone -->
+          <div class="form-wrap">
             <label class="form-label" for="phone">Phone</label>
             <div class="form-box">
               <input class="form-imput" type="text" name="phone" id="phone" />
@@ -493,9 +497,9 @@
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
-          </div> -->
-    <!-- Email -->
-    <!-- <div class="form-wrap">
+          </div>
+          <!-- Email -->
+          <div class="form-wrap">
             <label class="form-label" for="email">Email</label>
             <div class="form-box">
               <input class="form-imput" type="text" name="email" id="email" />
@@ -503,9 +507,9 @@
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
-          </div> -->
-    <!-- Comment -->
-    <!-- <div class="form-wrap-comment">
+          </div>
+          <!-- Comment -->
+          <div class="form-wrap-comment">
             <label class="form-label" for="user-comment">Comment</label>
             <textarea
               class="form-textarea"
@@ -538,7 +542,7 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
 
     <!-- Mobile menu -->
     <div class="menu-container js-menu-container" id="mobile-menu">
@@ -549,7 +553,7 @@
       </button>
 
       <ul class="list mobile-menu">
-        <li><a class="link" href="./index.html">Studio</a></li>
+        <li><a class="link current" href="./index.html">Studio</a></li>
         <li><a class="link" href="./portfolio.html">Portfolio</a></li>
         <li><a class="link" href="#">Contacts</a></li>
       </ul>
