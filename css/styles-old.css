@@ -462,8 +462,8 @@ img {
   gap: 24px;
 }
 
-.subscribe-imput {
-  /*width: 264px;
+/* .subscribe-imput {
+  width: 264px;
   height: 40px;
   border: 1px solid var(--white-background-color);
   border-radius: 4px;
@@ -471,10 +471,10 @@ img {
   background-color: transparent;
   padding: 8px 16px;
   color: var(--white-background-color);
-  font-size: 12px; */
+  font-size: 12px;
   line-height: 1.5;
-  /* letter-spacing: 0.04em; */
-}
+  letter-spacing: 0.04em;
+} */
 
 /* .subscribe-imput::placeholder {
   color: var(--white-background-color);
@@ -517,23 +517,23 @@ img {
 
 /* Portfolio */
 
-.section-portfolio {
+/* .section-portfolio {
   padding: 96px 0 120px 0;
-}
+} */
 
 .portfolio-menu {
-  display: flex;
+  /* display: flex; */
   gap: 24px;
   padding: 0 271px;
-  justify-content: center;
-  margin-bottom: 72px;
+  /* justify-content: center;
+  margin-bottom: 72px; */
 }
 
 .portfolio-menu li:nth-child(2) {
   flex-shrink: 0;
 }
 
-.portfolio-btn {
+/* .portfolio-btn {
   color: var(--primary-brand-color);
   font-family: inherit;
   font-size: 16px;
@@ -556,18 +556,18 @@ img {
   color: var(--white-background-color);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* Pictures of works */
 
-.portfolio-img {
+/* .portfolio-img {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-}
+} */
 
-.portfolio-img-item {
+/* .portfolio-img-item {
   flex-basis: calc((100% - 48px) / 3);
   transition: box-shadow 250ms var(--transition-cub);
 }
@@ -576,9 +576,9 @@ img {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
+} */
 
-.portfolio-link {
+/* .portfolio-link {
   display: block;
   transition: box-shadow 250ms var(--transition-cub);
 }
@@ -586,19 +586,19 @@ img {
 .portfolio-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+} */
 
-.portfolio-link:hover p,
+/* .portfolio-link:hover p,
 .portfolio-link:focus p {
   transform: translateY(0%);
-}
+} */
 
-.portfolio-img-box {
+/* .portfolio-img-box {
   position: relative;
   overflow: hidden;
-}
+} */
 
-.overlay {
+/* .overlay {
   background-color: var(--primary-brand-color);
   color: var(--light-color);
   display: flex;
@@ -611,26 +611,26 @@ img {
   height: 100%;
   transform: translateY(100%);
   transition: transform 250ms var(--transition-cub);
-}
+} */
 
-.portfolio-img-item:hover .overlay {
+/* .portfolio-img-item:hover .overlay {
   transform: translateY(0%);
 }
 
 .portfolio-img-item:focus .overlay {
   transform: translateY(0%);
-}
+} */
 
 .portfolio-description {
   padding-left: 16px;
-  border: 1px solid var(--accent-color);
+  /* border: 1px solid var(--accent-color);
   border-top: none;
-  padding: 32px 16px;
+  padding: 32px 16px; */
 }
 
-.portfolio-description h2 {
+/* .portfolio-description h2 {
   margin-bottom: 8px;
-}
+} */
 
 .txt {
   color: var(--text-color);
