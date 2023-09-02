@@ -416,7 +416,13 @@ img {
 }
 
 .benefit-title {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  .benefit-title {
+    text-align: left;
+  }
 }
 
 @media (min-width: 1158px) {
@@ -442,7 +448,7 @@ img {
   .benefits-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
   }
 
   .benefits-item {
@@ -603,6 +609,12 @@ img {
 
 /* Customers */
 
+@media (min-width: 768px) and (max-width: 1158px) {
+  .customers .container {
+    max-width: calc(168px * 3 + 48px);
+  }
+}
+
 .customers-list {
   fill: var(--subtle-text-color);
   display: flex;
@@ -614,6 +626,7 @@ img {
 @media (min-width: 768px) {
   .customers-list {
     gap: 72px 24px;
+    /* max-width: calc(168px * 3 + 48px); */
   }
 }
 
